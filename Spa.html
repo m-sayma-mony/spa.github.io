@@ -1,0 +1,250 @@
+<!--Spa Website Using Only HTML & CSS-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Spa Center</title>
+<!--Swiper JS Link-->	
+	<link
+ 	rel="stylesheet"
+  	href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<!--AOS Animate Link-->
+  	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!--CSS Link-->	
+	<link rel="stylesheet" type="text/css" href="Spa.css">
+<!--Google Font Links-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<!--Font Awesome Icons CDN Link-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!--Header Section Of The Website-->	
+	<header>
+<!--Navigation Bar Of The Website-->		
+		<nav>
+<!--Logo Of The Website-->			
+			<div class="logo">
+				<img src="images/logo2.png" width="150">
+			</div>
+<!--Navigation bar is built with anchor tags-->			
+			<div class="menu">
+				<a href="#">Home</a>
+				<a href="#">Gallery</a>
+				<a href="#">About</a>
+				<a href="#">Blog</a>
+				<a href="#">Services</a>
+				<a href="#">Contact</a>
+			</div>
+		</nav>
+<!--This is swiper slider section-->		
+		<section>
+			<div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/1.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/2.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/3.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/4.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/5.jpg" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+		</section>
+	</header>
+<!--This is latest pro duct or what's new section-->	
+	<section id="first">
+		<div class="f-container">
+<!--Latest pro duct left section-->			
+			<div class="f-left" data-aos="zoom-in" data-aos-offset="200">
+				<h1>Latest Pro <span>duct</span></h1>
+				<div class="card-container">
+					<div class="card-box">
+						<img src="images/grid-img1.jpg">
+						<div>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor. <span>MORE</span>
+						</div>
+					</div>
+					<div class="card-box">
+						<img src="images/grid-img2.jpg">
+						<div>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor. <span>MORE</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="card-container part2" data-aos="zoom-in" data-aos-offset="200">
+					<div class="card-box">
+						<img src="images/grid-img3.jpg">
+						<div>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor. <span>MORE</span>
+						</div>
+					</div>
+					<div class="card-box">
+						<img src="images/grid-img4.jpg">
+						<div>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor. <span>MORE</span>
+						</div>
+					</div>
+				</div>
+			</div>
+<!--What's new right section-->			
+			<div class="f-right" data-aos="zoom-in-up" data-aos-offset="200">
+				<h1>What's <span>New</span></h1>
+				<div class="card-box">
+						<img src="images/grid2-img.jpg">
+						<div>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor. <span>MORE</span>
+						</div>
+					</div>
+					</div>
+			</div>
+		</div>
+	</section>
+<!--This is some article section-->	
+	<section id="second">
+		<div class="card" data-aos="fade-up" data-aos-offset="200">
+			<div class="box">
+				<h1>FASHION</h1>
+				<span>Lorem ipsum sit amet</span>
+				<div>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation.
+					</p>
+					<button>Read more</button>
+				</div>
+			</div>
+			<div class="box">
+				<h1>WEDDING</h1>
+				<span>Lorem ipsum sit amet</span>
+				<div>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation.
+					</p>
+					<button>Read more</button>
+				</div>
+			</div>
+			<div class="box">
+				<h1>ADVERTISING</h1>
+				<span>Lorem ipsum sit amet</span>
+				<div>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation.
+					</p>
+					<button>Read more</button>
+				</div>
+			</div>
+			<div class="box">
+				<h1>BEAUTY</h1>
+				<span>Lorem ipsum sit amet</span>
+				<div>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation.
+					</p>
+					<button>Read more</button>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--This is footer section-->	
+	<footer>
+		<div class="card card2" data-aos="zoom-in" data-aos-offset="200">
+<!--This is location-->			
+			<div class="box">
+				<h1>LOCATION</h1>
+<!--Google Maps-->	
+				<div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29245.285523717197!2d90.5047864!3d23.616498900000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b10812a520a3%3A0x6d3af4457bec4c90!2sNarayanganj!5e0!3m2!1sen!2sbd!4v1666013505592!5m2!1sen!2sbd" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+<!--This is socials icon section-->					
+			<div class="box">
+				<h1>SOCIALS</h1>
+					<div>
+						<i class="fa-brands fa-facebook-f"></i>
+						<i class="fa-brands fa-instagram"></i>
+						<i class="fa-brands fa-whatsapp"></i>
+						<i class="fa-brands fa-twitter"></i>
+						<i class="fa-solid fa-envelope"></i>
+						<i class="fa-brands fa-google"></i>
+						<i class="fa-brands fa-pinterest"></i>
+					</div>
+			</div>
+<!--This is address section-->					
+			<div class="box">
+				<h1>ADDRESS</h1>
+				<div>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut.
+					</p>
+					<button>Read more</button>
+				</div>
+			</div>
+<!--This is navigation section-->					
+			<div class="box">
+				<h1>NAVIGATION</h1>
+				<div>
+					<p>HOME</p>
+					<p>ABOUT</p>
+					<p>BLOG</p>
+					<p>GALLERY</p>
+					<p>CONTACT</p>
+					<p>SERVICES</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+<!--This is swiper script section-->	
+	<script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 150,
+          modifier: 1,
+          slideShadows: true,
+        },
+        loop:true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+<!--AOS Animate Link-->    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  		AOS.init();
+		</script>
+</body>
+</html>
